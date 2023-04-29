@@ -5,9 +5,17 @@
     <string name="videoview">VideoView</string>
     <string name="mediacontroller">MediaController</string>
     <string name="mediaplayer">MediaPlayer</string>
-    <string name="cellanimation">CellAnimation</string>
-    <string name="tweenanimation">TweenAnimation</string>
+    <string name="cell_animation">Cell Animation</string>
+    <string name="tween_animation">Tween Animation</string>
     <string name="service">Service</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
+    <string name="dialog_screens">Dialog Screens</string>
+    <string name="pick_date">Pick date</string>
+    <string name="pick_time">Pick time</string>
+    <string name="save">Save</string>
+    <string name="date">Date: %s</string>
+    <string name="time">Time: %s</string>
+    <string name="save_data">Save data</string>
+    <string name="save_message">Are you sure you want to save this data:\n%s\n%s</string>
 </resources>

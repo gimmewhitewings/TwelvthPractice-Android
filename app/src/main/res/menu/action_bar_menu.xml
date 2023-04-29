@@ -12,11 +12,14 @@
         android:title="@string/mediaplayer" />
     <item
         android:id="@id/cellAnimationFragment"
-        android:title="@string/cellanimation" />
+        android:title="@string/cell_animation" />
     <item
         android:id="@id/tweenAnimationFragment"
-        android:title="@string/tweenanimation" />
+        android:title="@string/tween_animation" />
     <item
         android:id="@id/serviceFragment"
         android:title="@string/service" />
+    <item
+        android:id="@id/dialogScreensFragment"
+        android:title="@string/dialog_screens" />
 </menu>

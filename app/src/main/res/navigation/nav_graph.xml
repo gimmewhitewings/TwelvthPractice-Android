@@ -8,31 +8,36 @@
     <fragment
         android:id="@+id/videoViewFragment"
         android:name="com.example.twelvthpractice.fragments.VideoViewFragment"
-        android:label="VideoView"
+        android:label="@string/videoview"
         tools:layout="@layout/fragment_video_view" />
     <fragment
         android:id="@+id/mediaPlayerFragment"
         android:name="com.example.twelvthpractice.fragments.MediaPlayerFragment"
-        android:label="MediaPlayer"
+        android:label="@string/mediaplayer"
         tools:layout="@layout/fragment_media_player" />
     <fragment
         android:id="@+id/mediaControllerFragment"
         android:name="com.example.twelvthpractice.fragments.MediaControllerFragment"
-        android:label="MediaController"
+        android:label="@string/mediacontroller"
         tools:layout="@layout/fragment_media_controller" />
     <fragment
         android:id="@+id/cellAnimationFragment"
         android:name="com.example.twelvthpractice.fragments.CellAnimationFragment"
-        android:label="CellAnimation"
+        android:label="@string/cell_animation"
         tools:layout="@layout/fragment_cell_animation" />
     <fragment
         android:id="@+id/tweenAnimationFragment"
         android:name="com.example.twelvthpractice.fragments.TweenAnimationFragment"
-        android:label="TweenAnimation"
+        android:label="@string/tween_animation"
         tools:layout="@layout/fragment_tween_animation" />
     <fragment
         android:id="@+id/serviceFragment"
         android:name="com.example.twelvthpractice.fragments.ServiceFragment"
-        android:label="Service"
+        android:label="@string/service"
         tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/dialogScreensFragment"
+        android:name="com.example.twelvthpractice.DialogScreensFragment"
+        android:label="@string/dialog_screens"
+        tools:layout="@layout/fragment_dialog_screens" />
 </navigation>
