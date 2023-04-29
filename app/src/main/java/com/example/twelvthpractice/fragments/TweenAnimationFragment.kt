@@ -25,13 +25,15 @@ class TweenAnimationFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        // Load the animation from the xml file.
         val animation = AnimationUtils.loadAnimation(context, R.anim.tween_animation)
         val mediaPlayer = MediaPlayer.create(context, R.raw.button_pressed)
+        // Set the duration of the animation to the duration of the audio file.
         animation.duration = mediaPlayer.duration.toLong()
         binding.apply {
             animatedButton.setOnClickListener {
-                it.startAnimation(animation)
-                mediaPlayer.start()
+                it.startAnimation(animation) // Start the animation.
+                mediaPlayer.start() // Play the audio file.
             }
         }
     }

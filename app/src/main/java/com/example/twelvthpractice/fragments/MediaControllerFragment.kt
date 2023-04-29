@@ -24,7 +24,7 @@ class MediaControllerFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val mediaController = MediaController(context)
+        val mediaController = MediaController(context) // Create a media controller
         val videoPath =
             "https://static.videezy.com/system/resources/previews/000/036/605/original/18_010_05.mp4"
         binding.apply {

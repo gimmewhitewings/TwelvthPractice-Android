@@ -18,4 +18,5 @@
     <string name="time">Time: %s</string>
     <string name="save_data">Save data</string>
     <string name="save_message">Are you sure you want to save this data:\n%s\n%s</string>
+    <string name="press_me">Press me</string>
 </resources>

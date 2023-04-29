@@ -30,6 +30,7 @@ class MediaPlayerFragment : Fragment() {
         binding.apply {
 
             // SeekBar configuration
+            // Set the max value of the seek bar to the duration of the audio file.
             audioSeekBar.max = mediaPlayer.duration
             audioSeekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
                 override fun onProgressChanged(
@@ -57,6 +58,7 @@ class MediaPlayerFragment : Fragment() {
 
             // Rewind button
             rewindButton.setOnClickListener {
+                // Rewind the audio by 5 seconds.
                 val newPosition = mediaPlayer.currentPosition - 5000
                 mediaPlayer.seekTo(newPosition)
                 audioSeekBar.progress = newPosition
@@ -64,6 +66,7 @@ class MediaPlayerFragment : Fragment() {
 
             // Froward button
             forwardButton.setOnClickListener {
+                // Forward the audio by 5 seconds.
                 val newPosition = mediaPlayer.currentPosition + 5000
                 mediaPlayer.seekTo(newPosition)
                 audioSeekBar.progress = newPosition

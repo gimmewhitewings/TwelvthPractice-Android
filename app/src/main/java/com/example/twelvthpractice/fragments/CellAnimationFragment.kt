@@ -24,8 +24,11 @@ class CellAnimationFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        // Load the animation from the xml file.
         binding.cellAnimView.setBackgroundResource(R.drawable.flower_animation)
+        // Get the background, which has been compiled to an AnimationDrawable object.
         val frameAnimation = binding.cellAnimView.background as AnimationDrawable
+        // Start the animation (looped playback by default).
         frameAnimation.start()
     }
 }
