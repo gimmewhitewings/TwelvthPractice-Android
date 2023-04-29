@@ -15,5 +15,8 @@
         android:title="CellAnimation" />
     <item
         android:id="@id/tweenAnimationFragment"
-        android:title="TweenAnimation"/>
+        android:title="TweenAnimation" />
+    <item
+        android:id="@id/serviceFragment"
+        android:title="Service" />
 </menu>

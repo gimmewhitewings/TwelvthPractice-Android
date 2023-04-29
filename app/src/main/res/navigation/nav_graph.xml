@@ -30,4 +30,9 @@
         android:name="com.example.twelvthpractice.fragments.TweenAnimationFragment"
         android:label="TweenAnimation"
         tools:layout="@layout/fragment_tween_animation" />
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.example.twelvthpractice.fragments.ServiceFragment"
+        android:label="Service"
+        tools:layout="@layout/fragment_service" />
 </navigation>
