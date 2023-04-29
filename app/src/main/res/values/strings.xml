@@ -2,4 +2,12 @@
     <string name="app_name">TwelvthPractice</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="videoview">VideoView</string>
+    <string name="mediacontroller">MediaController</string>
+    <string name="mediaplayer">MediaPlayer</string>
+    <string name="cellanimation">CellAnimation</string>
+    <string name="tweenanimation">TweenAnimation</string>
+    <string name="service">Service</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
 </resources>

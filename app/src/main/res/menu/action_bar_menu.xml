@@ -3,20 +3,20 @@
 
     <item
         android:id="@id/videoViewFragment"
-        android:title="VideoView" />
+        android:title="@string/videoview" />
     <item
         android:id="@id/mediaControllerFragment"
-        android:title="MediaController" />
+        android:title="@string/mediacontroller" />
     <item
         android:id="@id/mediaPlayerFragment"
-        android:title="MediaPlayer" />
+        android:title="@string/mediaplayer" />
     <item
         android:id="@id/cellAnimationFragment"
-        android:title="CellAnimation" />
+        android:title="@string/cellanimation" />
     <item
         android:id="@id/tweenAnimationFragment"
-        android:title="TweenAnimation" />
+        android:title="@string/tweenanimation" />
     <item
         android:id="@id/serviceFragment"
-        android:title="Service" />
+        android:title="@string/service" />
 </menu>
